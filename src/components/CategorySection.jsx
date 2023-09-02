@@ -19,8 +19,10 @@ const CategorySection = () => {
           key={category.id}
           className="w-20 flex flex-col items-center space-y-2 p-1"
         >
-          <img src={category.image} className="max-w-[40px]" />
-          <p className="text-[10px] text-center">{category.text}</p>
+          <img src={category.image} className="max-w-[45px] rounded-full" />
+          <p className="text-[11px] text-center font-montserrat">
+            {category.text}
+          </p>
         </div>
       ))}
     </section>
