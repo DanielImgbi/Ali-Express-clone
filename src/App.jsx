@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <main className="">
+    <main className="flex flex-col space-y-24">
       <NavBar />
       <Outlet />
     </main>
